@@ -11,7 +11,8 @@ public class LinearSearch {
 		 for(int i=0;i<numbers.length;i++) {
 			 if(numbers[i] == target) {
 				 
-				 System.out.println("target found : " + i);
+				 System.out.println("target found at : " + i);
+				 System.out.println("target found : " + numbers[i]);
 				 found=true;
 				 break;
 				 
